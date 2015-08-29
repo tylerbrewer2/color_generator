@@ -8,5 +8,13 @@ $( document ).ready(function() {
     console.log(b);
     console.log("rgb(" + r + "," + g + "," + b + ")")
     $(this).css("background-color","rgb(" + r + "," + g + "," + b + ")");
+    ele = $('div.color_info h3').length;
+    if ( ele == 0 ) {
+      $( "div.color_info" ).append( "<h3>rgb(" + r + "," + g + "," + b + ")</h3>" );
+    }
+    else {
+
+      $("div.color_info h3").text("rgb(" + r + "," + g + "," + b + ")")
+    };
   });
 });
