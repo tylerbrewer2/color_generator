@@ -6,7 +6,7 @@ $( document ).ready(function() {
     console.log(r);
     console.log(g);
     console.log(b);
-    console.log("rgb(" + r + "," + g + "," + b + ")")
+    console.log("rgb(" + r + "," + g + "," + b + ")");
     $(this).css("background-color","rgb(" + r + "," + g + "," + b + ")");
     ele = $('div.color_info h3').length;
     if ( ele == 0 ) {
