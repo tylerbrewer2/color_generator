@@ -1,0 +1,10 @@
+.header {
+  text-align: center
+}
+.color_box {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 700px;
+  height: 550px;
+  background-color: red;
+}
