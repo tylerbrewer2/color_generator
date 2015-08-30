@@ -13,7 +13,6 @@ $( document ).ready(function() {
       $( "div.color_info" ).append( "<h3>rgb(" + r + "," + g + "," + b + ")</h3>" );
     }
     else {
-
       $("div.color_info h3").text("rgb(" + r + "," + g + "," + b + ")")
     };
   });
